@@ -4,7 +4,7 @@ const n1= 124
 const n2 = 123
 const showResult = true
 
-const displayResult = (number1:number, number2:number, canShowResult:boolean,someResult:string)=>{
+const displayResult = (number1:number, number2:number, canShowResult:boolean,someResult:string):string=>{
     const sum = number1 + number2;
     let resultString:string;
     if(canShowResult){
